@@ -29,13 +29,10 @@ s.subspec 'Macro' do |ss|
 end
 
 s.subspec 'Category' do |ss|
-	ss.source_files = 'LXTool/Category/*'
+	ss.source_files = 'LXTool/Category/**/*'
 end
 
-s.subspec 'Description' do |ss|
-	ss.source_files = 'LXTool/Category/Description/*'
-#	ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
-end
+
 
 end
 
